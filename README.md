@@ -476,6 +476,13 @@ Grade C
 
 3. รูปแบบการพิมพ์คือ score: [sss] grade: [gg] เมื่อ sss คือคะแนน และ gg คือ เกรดที่ได้
 
+![](https://github.com/NAVAKETH/LAB-08/blob/master/imgs/8.11.JPG?raw=true)
+
+![](https://github.com/NAVAKETH/LAB-08/blob/master/imgs/8.11.1.JPG?raw=true)
+
+![](https://github.com/NAVAKETH/LAB-08/blob/master/imgs/8.11.2.JPG?raw=true)
+
+
 ###1.2.5. คำสั่ง ```switch```
 
 ในกรณีที่มีทางเลือกในการตัดสินใจเป็นจำนวนมาก ไม่เป็นการสะดวกที่จะเขียนเป็นโปรแกรมยาวๆ เช่นในกรณีของคำสั่ง if…else…if ภาษา C# มีคำสั่งตัดสินใจเลือกทิศทางของโปรแกรมแบบหลายทางเลือกให้ใช้คือคำสั่ง switch ซึ่งรูปแบบการใช้งาน ดังนี้
