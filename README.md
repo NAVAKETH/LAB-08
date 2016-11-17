@@ -564,6 +564,49 @@ sat|	Saturday	|Purple
 ##Reference
 เนื้อหาในส่วนนี้เป็นอ้างอิงสำหรับการเขียนโปรแกรม
 
+![](https://github.com/NAVAKETH/LAB-08/blob/master/imgs/8.12.JPG?raw=true)
+
+![](https://github.com/NAVAKETH/LAB-08/blob/master/imgs/8.13.JPG?raw=true)
+
+##Code
+```cs
+static void Main(string[] args)
+    {
+
+        Console.Write("Input day name : ");
+        string day = Console.ReadLine();
+        string message;
+        switch (day.ToUpper())
+        {
+            case "SUN":
+                message = "sun is Sunday ,Color is Red";
+                break;
+            case "MON":
+                message = "mon is Monday ,Color is Yellow";
+                break;
+            case "TUE":
+                message = "tue is Tuesday ,Color is Pink";
+                break;
+            case "WED":
+                message = "wed is Wednesday ,Color is Green";
+                break;
+            case "THU":
+                message = "fri is Friday ,Color is Orange";
+                break;
+            case "FRI":
+                message = "fri is Friday ,Color is Blue";
+                break;
+            case "SAT":
+                message = "sat is Saturday ,Color is Purple";
+                break;
+            default:
+                message = "Others is --- ,Color is ---";
+                break;
+        }
+        Console.WriteLine(message);
+    }
+
+```
 ###Exceptions
 
 Exception | Condition
